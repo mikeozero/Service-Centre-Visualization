@@ -1238,7 +1238,7 @@ get_lb_data()
 get_rb_data()
 
 
-// setInterval(gettime,1000)
+setInterval(gettime,1000)
 // setInterval(get_l1_data,1000*86400)
 // setInterval(get_r1_data,1000*86400)
 // setInterval(get_c1_data,1000*86400)
