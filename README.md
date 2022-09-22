@@ -2,7 +2,7 @@
 ## Introduction
 ![](https://s1.ax1x.com/2022/09/22/xFD23F.png)
 #### main page:
-![](E:\Workspaces\PyCharm\Pictures\Service-Centre-Visualization\intro01.png)
+![](https://s1.ax1x.com/2022/09/22/xFD6hT.md.png)
 #### service centre dashboard:
 ![](E:\Workspaces\PyCharm\Pictures\Service-Centre-Visualization\intro03.png)
 #### customer service dashboard:
