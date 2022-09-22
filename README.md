@@ -1,6 +1,6 @@
 # <font color="steelblue">Service Centre Visualization</font>
 ## Introduction
-![](https://s1.ax1x.com/2022/09/22/xFD23F.md.png)
+![](https://s1.ax1x.com/2022/09/22/xFD23F.png)
 #### main page:
 ![](E:\Workspaces\PyCharm\Pictures\Service-Centre-Visualization\intro01.png)
 #### service centre dashboard:
