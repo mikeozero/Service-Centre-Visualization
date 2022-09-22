@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Service</title>
+    <link href="../static/css/customerservice.css" rel="stylesheet" />
+    <script src="../static/js/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" />
+{#    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>#}
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+{#    <script src="../static/js/echarts.min.js"></script>#}
+    <script src="../static/js/echarts-5.0.1/dist/echarts.js"></script>
+</head>
+<body>
+    <div id="titlecs">Customer Service Dashboard</div>
+    <div id="ticketsvsdaystoresolve"></div>
+    <div id="openticketsvsdaysaging"></div>
+    <div id="callvolumevssatisfaction"></div>
+    <div id="scatterchart"></div>
+    <div id="agentdetail">
+        <h4 style="color: gray;display: inline-block;font-weight: bold">Agent Details</h4>
+        <div style="overflow-y: scroll;height: 88%;">
+        <table class="table table-condensed table-hover table-striped">
+            <thead>
+                <tr style="font-weight: bold">
+                    <th>Agent</th>
+                    <th>Call Volume</th>
+                    <th>1st Resolved</th>
+                    <th>Avg. Days to Resolve</th>
+                    <th>SLA%</th>
+                </tr>
+            </thead>
+            <tbody id="tbdata"></tbody>
+        </table>
+        </div>
+    </div>
+    <script src="../static/js/customerservice.js"></script>
+</body>
+</html>

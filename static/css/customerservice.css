@@ -1,0 +1,248 @@
+body{
+	margin: 0;
+	background: white;
+}
+#titlecs{
+	position: absolute;
+	width: 90%;
+	height: 8%;
+	top: 0%;
+	left: 5%;
+	color: steelblue;
+	font-size: 2.8rem;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+#ticketsvsdaystoresolve{
+	position: absolute;
+	width: 30%;
+	height: 40%;
+	top: 10%;
+	left: 5%;
+	background-color: white;
+	/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+}
+#openticketsvsdaysaging{
+	position: absolute;
+	width: 30%;
+	height: 40%;
+	top: 10%;
+	left: 35%;
+	background-color: white;
+	/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+}
+#callvolumevssatisfaction{
+	position: absolute;
+	width: 30%;
+	height: 40%;
+	top: 10%;
+	left: 65%;
+	background-color: white;
+	/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+}
+#scatterchart{
+	position: absolute;
+	width: 45%;
+	height: 40%;
+	top: 50%;
+	left: 5%;
+	background-color: white;
+}
+#agentdetail{
+	position: absolute;
+	width: 45%;
+	height: 40%;
+	top: 50%;
+	left: 50%;
+	background-color: white;
+}
+
+table{
+	color: gray;
+}
+/* 1.超小屏幕下 小于768 布局容器的宽度为 100% */
+@media screen and (max-width: 767px) {
+	#ticketsvsdaystoresolve{
+		position: absolute;
+		width: 90%;
+		height: 30%;
+		top: 10%;
+		left: 5%;
+		background-color: white;
+		/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+	}
+	#openticketsvsdaysaging{
+		position: absolute;
+		width: 90%;
+		height: 30%;
+		top: 40%;
+		left: 5%;
+		background-color: white;
+		/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+	}
+	#callvolumevssatisfaction{
+		position: absolute;
+		width: 90%;
+		height: 30%;
+		top: 70%;
+		left: 5%;
+		background-color: white;
+		/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+	}
+	#scatterchart{
+		position: absolute;
+		width: 90%;
+		height: 30%;
+		top: 100%;
+		left: 5%;
+		background-color: white;
+	}
+	#agentdetail{
+		position: absolute;
+		width: 90%;
+		height: 30%;
+		top: 130%;
+		left: 5%;
+		background-color: white;
+	}
+}
+/* 2.小屏幕下 大于等于768 布局容器改为 750px */
+@media screen and (min-width: 768px) {
+	#ticketsvsdaystoresolve{
+		position: absolute;
+		width: 90%;
+		height: 40%;
+		top: 10%;
+		left: 5%;
+		background-color: white;
+		/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+	}
+	#openticketsvsdaysaging{
+		position: absolute;
+		width: 90%;
+		height: 40%;
+		top: 50%;
+		left: 5%;
+		background-color: white;
+		/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+	}
+	#callvolumevssatisfaction{
+		position: absolute;
+		width: 90%;
+		height: 40%;
+		top: 90%;
+		left: 5%;
+		background-color: white;
+		/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+	}
+	#scatterchart{
+		position: absolute;
+		width: 90%;
+		height: 40%;
+		top: 130%;
+		left: 5%;
+		background-color: white;
+	}
+	#agentdetail{
+		position: absolute;
+		width: 90%;
+		height: 40%;
+		top: 170%;
+		left: 5%;
+		background-color: white;
+	}
+}
+/* 3.中等屏幕下 大于等于992px 布局容器修改为970px */
+@media screen and (min-width: 992px) {
+	#ticketsvsdaystoresolve{
+		position: absolute;
+		width: 30%;
+		height: 40%;
+		top: 10%;
+		left: 5%;
+		background-color: white;
+		/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+	}
+	#openticketsvsdaysaging{
+		position: absolute;
+		width: 30%;
+		height: 40%;
+		top: 10%;
+		left: 35%;
+		background-color: white;
+		/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+	}
+	#callvolumevssatisfaction{
+		position: absolute;
+		width: 30%;
+		height: 40%;
+		top: 10%;
+		left: 65%;
+		background-color: white;
+		/*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*/
+	}
+	#scatterchart{
+		position: absolute;
+		width: 45%;
+		height: 40%;
+		top: 50%;
+		left: 5%;
+		background-color: white;
+	}
+	#agentdetail{
+		position: absolute;
+		width: 45%;
+		height: 40%;
+		top: 50%;
+		left: 50%;
+		background-color: white;
+	}
+}
+/* 4.大屏幕下 大于等于1200 布局容器修改为 1170 */
+/*@media screen and (min-width: 1200px) {*/
+/*	#ticketsvsdaystoresolve{*/
+/*		position: absolute;*/
+/*		width: 30%;*/
+/*		height: 40%;*/
+/*		top: 10%;*/
+/*		left: 5%;*/
+/*		background-color: white;*/
+/*		!*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*!*/
+/*	}*/
+/*	#openticketsvsdaysaging{*/
+/*		position: absolute;*/
+/*		width: 30%;*/
+/*		height: 40%;*/
+/*		top: 10%;*/
+/*		left: 35%;*/
+/*		background-color: white;*/
+/*		!*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*!*/
+/*	}*/
+/*	#callvolumevssatisfaction{*/
+/*		position: absolute;*/
+/*		width: 30%;*/
+/*		height: 40%;*/
+/*		top: 10%;*/
+/*		left: 65%;*/
+/*		background-color: white;*/
+/*		!*box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;*!*/
+/*	}*/
+/*	#scatterchart{*/
+/*		position: absolute;*/
+/*		width: 45%;*/
+/*		height: 40%;*/
+/*		top: 50%;*/
+/*		left: 5%;*/
+/*		background-color: white;*/
+/*	}*/
+/*	#agentdetail{*/
+/*		position: absolute;*/
+/*		width: 45%;*/
+/*		height: 40%;*/
+/*		top: 50%;*/
+/*		left: 50%;*/
+/*		background-color: white;*/
+/*	}*/
+/*}*/

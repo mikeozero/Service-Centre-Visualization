@@ -1,0 +1,220 @@
+body{
+	margin: 0;
+	background: white;
+}
+#title{
+	position: absolute;
+	width: 90%;
+	height: 6%;
+	top: 0%;
+	left: 5%;
+	color: steelblue;
+	font-size: 1.8rem;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+#kpis{
+	position: absolute;
+	width: 90%;
+	height: 13.5%;
+	top: 6%;
+	left: 5%;
+	background-color: white;
+	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+}
+.txt{
+	/*position: relative;*/
+	width: 16.66%;
+	height: 50%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: steelblue;
+	color: white;
+	font-weight: bold;
+}
+.num{
+	width: 16.66%;
+	height: 40%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	color: steelblue;
+	font-weight: bold;
+}
+#symbolmap{
+	position: absolute;
+	width: 45%;
+	height: 35%;
+	top: 20%;
+	left: 5%;
+	background-color: white;
+	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+}
+
+#horizontalbars{
+	position: absolute;
+	width: 45%;
+	height: 35%;
+	top: 20%;
+	left: 50%;
+	background-color: white;
+	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+}
+#stackedbars{
+	position: absolute;
+	width: 90%;
+	height: 43%;
+	top: 55.5%;
+	left: 5%;
+	background-color: white;
+	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+}
+/* 1.超小屏幕下 小于768 布局容器的宽度为 100% */
+@media screen and (max-width: 767px) {
+	#symbolmap{
+		position: absolute;
+		width: 90%;
+		height: 40%;
+		top: 20%;
+		left: 5%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+	#horizontalbars{
+		position: absolute;
+		width: 90%;
+		height: 40%;
+		top: 60%;
+		left: 5%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+	#stackedbars{
+		position: absolute;
+		width: 90%;
+		height: 35%;
+		top: 100%;
+		left: 5%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+}
+/* 2.小屏幕下 大于等于768 布局容器改为 750px */
+@media screen and (min-width: 768px) {
+	#symbolmap{
+		position: absolute;
+		width: 90%;
+		height: 40%;
+		top: 20%;
+		left: 5%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+	#horizontalbars{
+		position: absolute;
+		width: 90%;
+		height: 40%;
+		top: 60%;
+		left: 5%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+	#stackedbars{
+		position: absolute;
+		width: 90%;
+		height: 35%;
+		top: 100%;
+		left: 5%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+}
+/* 3.中等屏幕下 大于等于992px 布局容器修改为970px */
+@media screen and (min-width: 992px) {
+	#symbolmap{
+		position: absolute;
+		width: 44.8%;
+		height: 35%;
+		top: 20%;
+		left: 5%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+
+	#horizontalbars{
+		position: absolute;
+		width: 45%;
+		height: 35%;
+		top: 20%;
+		left: 50%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+	#stackedbars{
+		position: absolute;
+		width: 90%;
+		height: 43%;
+		top: 55.5%;
+		left: 5%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+}
+/* 4.大屏幕下 大于等于1200 布局容器修改为 1170 */
+@media screen and (min-width: 1200px) {
+	#title{
+		position: absolute;
+		width: 70%;
+		height: 6%;
+		top: 0%;
+		left: 15%;
+		color: steelblue;
+		font-size: 1.8rem;
+		display: flex;
+		align-items: center;
+		justify-content: left;
+	}
+	#kpis{
+		position: absolute;
+		width: 70%;
+		height: 13.5%;
+		top: 6%;
+		left: 15%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+	#symbolmap{
+		position: absolute;
+		width: 34.8%;
+		height: 38%;
+		top: 20%;
+		left: 15%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+
+	#horizontalbars{
+		position: absolute;
+		width: 35%;
+		height: 38%;
+		top: 20%;
+		left: 50%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+	#stackedbars{
+		position: absolute;
+		width: 70%;
+		height: 40%;
+		top: 58.5%;
+		left: 15%;
+		background-color: white;
+		box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+	}
+}
